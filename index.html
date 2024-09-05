@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quiz App</title>
+
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Welcome to the Quiz</h1>
+
+        <!-- Difficulty Selection Screen -->
+        <div id="difficulty-screen">
+            <h2>Select Difficulty</h2>
+            <button class="btn difficulty-btn" data-difficulty="easy">Easy</button>
+            <button class="btn difficulty-btn" data-difficulty="medium">Medium</button>
+            <button class="btn difficulty-btn" data-difficulty="hard">Hard</button>
+        </div>
+
+        <!-- Quiz Question Screen -->
+        <div id="quiz-screen" class="hidden">
+            <div id="question-container">
+                <h2 id="question-text">Question goes here</h2>
+                <div id="answer-buttons" class="btn-grid">
+                    <button class="btn answer-btn">Answer 1</button>
+                    <button class="btn answer-btn">Answer 2</button>
+                    <button class="btn answer-btn">Answer 3</button>
+                    <button class="btn answer-btn">Answer 4</button>
+                </div>
+            </div>
+            <div id="quiz-footer">
+                <span id="timer">Time: 30</span>
+                <div id="progress-bar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="hidden">
+            <h2>Your Score: <span id="score">0</span></h2>
+            <button id="restart-btn" class="btn">Restart Quiz</button>
+        </div>
+    </div>
+
+    <!-- Link to JS file -->
+    <script src="script.js"></script>
+</body>
+</html>
