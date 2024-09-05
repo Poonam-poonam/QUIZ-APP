@@ -9,19 +9,43 @@ Features
 ->Score Tracking: Cumulative score based on correct answers.
 ->Responsive UI: Optimized for both desktop and mobile users.
 ->Restart Option: Restart the quiz at any time.
+
+
+
 Technologies Used
 ->HTML: For structuring the web page.
 ->CSS: For styling the quiz interface.
 ->JavaScript: For dynamic functionality, including question handling, timer, and score tracking
+
+
+
+
 DEMO
 Follow these steps to run the quiz application locally.
+
+
+
 
 Prerequisites
 Any modern web browser (Google Chrome, Mozilla Firefox, etc.)
 Basic knowledge of HTML, CSS, and JavaScript.
+
+
+
+
 Installation
 Clone the repository:
+
+
+
+
 git clone https:(https://github.com/Poonam-poonam/QUIZ-APP)
 Navigate to the project directory:
+
+
+
 cd QUIZ-APP
+
+
+
 Open index.html in your browser: Simply open the index.html file in your preferred browser to launch the quiz app.
